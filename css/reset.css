@@ -1,0 +1,93 @@
+/* Reset CSS baseado no reset moderno do Andy Bell */
+
+/* 1. Use a box-sizing border-box por padrão, em todos os elementos antes e depois */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remova a margem padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* 3. Remova o padding padrão de listas */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 4. Configure o corpo com uma altura mínima de 100vh */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Tornar imagens mais fáceis de trabalhar */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* 6. Herdar fontes para inputs e buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Evitar texto transbordando em inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  width: 100%;
+}
+
+/* 8. Remove estilos padrão de botões */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* 9. Remova estilos padrão de links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 10. Remova estilos de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 11. Torne o heading e spans mais legíveis */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
